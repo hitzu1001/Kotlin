@@ -43,7 +43,7 @@ class Car(brand: String, model: String, val color: String): Vehicle(brand, model
 
 class Truck(brand: String, model: String, val towingCapacity: Int): Vehicle(brand, model) {
     fun tow() {
-        println("headed to the mountains!")
+        println("headed out to the mountains!")
     }
 }
 
